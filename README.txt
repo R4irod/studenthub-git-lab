@@ -1,0 +1,1 @@
+El proyecto será desarrollado colaborativamente utilizando Git y GitHub.
