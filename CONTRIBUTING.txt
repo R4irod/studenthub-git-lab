@@ -1,0 +1,37 @@
+# Contributing to StudentHub
+
+Gracias por contribuir a StudentHub. Sigue estas pautas para mantener el proyecto organizado.
+
+## Flujo de trabajo
+
+1. Actualiza `main` antes de comenzar:
+```bash
+   git checkout main
+   git pull origin main
+```
+2. Crea una rama descriptiva para tu cambio:
+```bash
+   git checkout -b tipo/nombre-corto
+```
+3. Realiza tus cambios y verifica con `git diff` antes de hacer commit.
+4. Sube tu rama y abre un Pull Request hacia `main`.
+
+## Convención de nombres de ramas
+
+- `feature/...` para nuevas funcionalidades
+- `docs/...` para documentación
+- `fix/...` para correcciones
+
+## Convención de mensajes de commit
+
+- `feat: ...` nueva funcionalidad
+- `docs: ...` cambios de documentación
+- `fix: ...` corrección de errores
+
+Evitar mensajes como `update`, `fix`, `change` sin contexto.
+
+## Pull Requests
+
+- Todo cambio a `main` debe pasar por un Pull Request.
+- El PR debe ser revisado por al menos un compañero antes de integrarse.
+- No usar `git push --force` sobre `main`.
