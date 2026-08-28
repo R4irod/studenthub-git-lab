@@ -1,0 +1,13 @@
+# Reglas del equipo
+
+## Reglas generales
+
+- Usa ramas de Git para los nuevos cambios.
+
+- Escribe mensajes de commit claros.
+
+- Revisa los cambios antes de fusionarlos.
+
+- Mantén la documentación actualizada.
+
+- No trabajes directamente en la rama principal.
